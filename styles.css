@@ -1,0 +1,110 @@
+body{
+    
+    background-color: rgb(244, 244, 244);
+}
+.title{
+    /*background-color: rgb(25, 188, 44);*/
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+.content{
+    /*background-color: blue;*/
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+    
+}
+.btn{
+    width: 35%;
+    /*background-color: brown;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.pinfo{
+    width: 65%;
+   /* background-color: cadetblue;*/
+}
+h1{
+    padding: 3%;
+    font-size: 40px;
+}
+img{
+    height: 50%;
+}
+.bttn{
+    width: 80%;
+    margin: 13px;
+    border-radius: 20px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: white;*/
+    cursor: pointer;
+}
+.bttn p{
+    font-size: 160%;
+    font-weight: 600;
+}
+.infohead{
+    /*background-color: tomato;*/
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.infohead div{
+    /*background-color: blueviolet;*/
+    height: 90%;
+    width: 95%;
+    border-bottom: 2px solid black;
+}
+.infohead_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.infohead_1 p{
+    padding-top: 0%;
+    font-size: 200%;
+    font-weight: 800;
+}
+.infodata{
+    /*background-color: violet;*/
+}
+.infodata div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.infobalance{
+    background-color: wheat;
+}
+.infobalance div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.uName p{
+    font-size: 25px;
+}
+.balance p{
+    font-size: 25px;
+}
+.total p{
+    font-size: 25px;
+}
+.sum p{
+    font-size: 25px;
+}
+

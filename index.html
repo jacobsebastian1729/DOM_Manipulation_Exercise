@@ -4,10 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>DOM practice</title>
   </head>
   <body>
-    <h1>Get User Information</h1>
+    <div class="title">
+      <h1>User Information</h1>
+    </div>
+    <div class="content">
+      <div class="btn">
+        <button class="bttn" onclick="getUser()"><p>Add User</p><img src="./img/adduser.jpg"> </button>
+        <button class="bttn" onclick="doubleMoney()"><p>Double Money</p><img src="./img/doublemoney.jpg"> </button>
+        <button class="bttn" onclick="million()"><p>Show Only Millionaires</p><img src="./img/million.jpg"> </button>
+        <button class="bttn" onclick="sort()"><p>Sort by Richest</p><img src="./img/sort.jpg"> </button>
+        <button class="bttn" onclick="calcWealth()"><p>Calculate Entire Wealth</p><img src="./img/wealth.jpg"> </button>
+      </div>
+
+      <div class="pinfo">
+        <div class="infohead">
+          <div class="infohead_1">
+            <p>Person</p>
+            <p>Balance($)</p>
+            
+          </div>
+          
+        </div>
+        <div class="infodata"></div>
+        <div class="infobalance"></div>
+
+      </div>
+    </div>
+    
+    
+    
   </body>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./javascript.js"></script>
 </html>
